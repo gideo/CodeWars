@@ -1,0 +1,8 @@
+String.prototype.delete = function() {
+  str = this.toString();
+  for(let i = 0; i < arguments.length; i+=1) {
+    if(arguments[i] instanceof RegExp) { str = str.replace(arguments[i], '') }
+    if(typeof arguments[i] === 'string') {str = str.replace(new RegExp(arguments[i], "g"), '') }
+  }
+  return str;
+}
