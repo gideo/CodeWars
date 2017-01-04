@@ -25,7 +25,7 @@
 // abbreviate:    "e6t"     "r3s"  "are"  "r4y"   "fun"
 // all non-word characters (*) remain in place
 //                     "-"      " "    " "     " "     "!"
-=== "e6t-r3s are r4y fun!"
+// === "e6t-r3s are r4y fun!"
 
 let abbreviate = function(str) {
   str = str.replace(/[a-z]+/gi, function(word) {
