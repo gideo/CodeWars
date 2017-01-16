@@ -56,11 +56,8 @@ let isPrime = function(n){
 }
 
 let step = function(g, m, n){
-    let arr = [];
     for(let i = m, idx = 0; i <= n; i++){
-        if(isPrime(i)) { arr.push(i); }
-        let temp = arr.indexOf(arr[arr.length-1]-g);
-        if(temp > -1) { return [arr[temp], arr[arr.length-1]]}
+        if(isPrime(i) && isPrime(i+g)){ return [i, i+g]}
     }
     return null;
 }
