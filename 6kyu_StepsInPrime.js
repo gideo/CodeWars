@@ -60,4 +60,4 @@ let step = function(g, m, n){
         if(isPrime(i) && isPrime(i+g)){ return [i, i+g]}
     }
     return null;
-}
+}w
