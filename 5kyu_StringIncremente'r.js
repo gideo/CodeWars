@@ -1,4 +1,4 @@
-// 6kyu - String Incrementer
+// 5 kyu - String Incrementer
 
 // Your job is to write a function which increments a string, to create a new string. 
 // If the string already ends with a number, the number should be incremented by 1. 
