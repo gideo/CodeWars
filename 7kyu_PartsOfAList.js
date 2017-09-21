@@ -39,10 +39,8 @@ function partlist(arr) {
     let res = [];
     for( var i=1; i<arr.length; i++){
       let nArr = [];
-      nArr.push(arr.slice(0,i).join(" "));
-      nArr.push(arr.slice(i).join(" "));
+      nArr.push(arr.slice(0,i).join(" "), arr.slice(i).join(" "));
       res.push(nArr);
     }
-    
     return res;
 }
