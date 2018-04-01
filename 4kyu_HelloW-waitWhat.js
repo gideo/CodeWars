@@ -1,4 +1,4 @@
-// 4 kyu - Hello W... wait what?
+// 4kyu - Hello W... wait what?
 
 // In order to stop too much communication from happening, your overlords declare 
 // that you are no longer allowed to use certain functionality in your code!
