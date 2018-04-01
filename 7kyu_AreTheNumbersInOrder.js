@@ -17,8 +17,4 @@
 // Extra Challenge: If time, try to optimise and shorten your code as much as possible.
 
 
-function inAscOrder(arr) {
-  for(let i = 0; i < arr.length; i++)
-    if(arr[i] > arr[i+1]) return false;
-  return true;
-}
+let inAscOrder = arr => arr.every((a,i)=>i===0||arr[i]>arr[i-1]);
