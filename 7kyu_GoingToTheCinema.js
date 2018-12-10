@@ -29,6 +29,13 @@
 
 
 function movie(card, ticket, perc) {
-  for (let s=perc,n=1; Math.ceil(card+s*ticket)>=ticket*n; s+= Math.pow(perc,++n)) {}
-  return n;
+  let counter = 0, t = ticket, acc = card, price = 0;
+  while (price <= Math.ceil(acc)) {
+    acc += (t * perc);
+    t *= perc;
+    price += ticket;
+    counter += 1;
+  }
+  return counter;
 };
+
