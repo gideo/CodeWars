@@ -9,7 +9,7 @@
 // characters after that and until [LF] are the binary representation of the integer: [space] for 0, [tab] for 1.
 // the integer MUST be terminated by [LF].
 // Notes
-// Valid Whitespace number must always have at least two characters: a sign and the terminator. In case there are only two characters, the number is equal to zero.
+// Valicdd Whitespace number must always have at least two characters: a sign and the terminator. In case there are only two characters, the number is equal to zero.
 // For the purposes of this kata, zero must always be represented as [space][LF].
 // In this kata, the output should not contain any leading zeros.
 // In Whitespace, only space, tabulation and linefeed are meaningful characters. All other characters are ignored. However, for the purposes of this simple kata, please do not add any other characters in the output.
